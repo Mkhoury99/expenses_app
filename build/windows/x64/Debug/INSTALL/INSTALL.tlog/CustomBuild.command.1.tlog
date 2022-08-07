@@ -1,0 +1,10 @@
+^C:\USERS\KHOURY\DEVELOPMENT\PROJECTS\EXPENSES_APP\BUILD\WINDOWS\CMAKEFILES\C1175949694467E758F42CBD76B62EA8\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
