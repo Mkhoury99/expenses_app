@@ -1,6 +1,8 @@
 # expenses_app
 
 A new Flutter project.
+This app is still under construction...
+This app will let the user add expenses and will display them. It will show them in a list and in chart that will let you know how much money was spent in the past 7 days with visulas.
 
 ## Getting Started
 
